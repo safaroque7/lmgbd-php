@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Font-face Icons */
+/* @font-face {
+    font-family: 'flexslider-icon';
+    src: url('fonts/flexslider-icon.eot');
+    src: url('fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('fonts/flexslider-icon.woff') format('woff'), url('fonts/flexslider-icon.ttf') format('truetype'), url('fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: 'flexslider-icon';
+    src: url('../../fonts/flexslider-icon.eot');
+    src: url('../../fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('../../fonts/flexslider-icon.woff') format('woff'), url('../../fonts/flexslider-icon.ttf') format('truetype'), url('../../fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.main-menu ul {
+    list-style: none;
+}
+
+.main-menu ul li {
+    float: left;
+    margin-left: 20px;
+}
+
+.main-menu ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.main-menu ul li {
+    border-right: 2px solid #999999;
+    line-height: 100%;
+    padding-right: 20px;
+}
+
+.main-menu ul li:last-child {
+    border-right: 0;
+    padding-right: 0;
+}
+
+.footer-menu ul,
+.quick-link ul li {
+    list-style: none;
+}
+
+.icon-height-weight {
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+.footer-menu ul li {
+    float: right;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+}
+
+.footer-bg {
+    background-image: url("/images/footer-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ul.slides li {
+    margin-right: 50px !important;
+} */
+
+.yt-video-bg,
+.popular-videos a .icon-hover-class,
+.our-services a .icon-hover-class,
+.our-services a h3 {
+    transition: all 0.5s;
+}
+
+.our-services a:hover .icon-hover-class,
+.our-services a:hover h3 {
+    color: #ffc107;
+    transform: scale(1.2);
+}
+
+.popular-videos a:hover .bi-camera-fill,
+.popular-videos a:hover .icon-hover-class {
+    color: red;
+}
+
+.popular-videos a:hover .yt-video-bg {
+    background: rgba(255, 255, 255, .5);
+    /* background: black; */
+}
+
+.popular-videos a:hover .yt-title-hover {
+    color: red;
+}
+
+
+.bi-camera-fill,
+.youtube-icon-bg {
+    color: #ffc107;
+}
+
+.main-menu ul li .sub-menu li {
+    background: red;
+    display: block;
+    float: none;
+}
+
+.main-menu ul li .sub-menu {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+div#navbarTogglerDemo02 {
+    font-size: 20px;
+}
+
+.text-column-2 {
+    column-count: 2;
+    column-gap: 50px;
+    text-align: justify;
+}
+
+.record-level-logo {
+    width: 55%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .text-column-2 {
+        column-count: 1;
+        column-gap: 0;
+    }
+}
